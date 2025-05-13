@@ -1,17 +1,16 @@
 {
   "expo": {
-    "jsEngine": "hermes",
     "plugins": [
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow $(react-native-meteo) to use your location."
         }
       ],
       "expo-font"
     ],
-    "name": "react-native-meteo",
-    "slug": "react-native-meteo",
+    "name": "4-react-native-meteo",
+    "slug": "4-react-native-meteo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -29,7 +28,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
